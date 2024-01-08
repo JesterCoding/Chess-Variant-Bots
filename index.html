@@ -1,0 +1,26 @@
+<!---
+ChessBoard Interactive Frontend Program HTML
+Written By: Kshitij Tomar
+-->
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset ="UTF-8">
+        <title>Chess Board</title>
+        <link rel="stylesheet" href = "style.css">
+    </head>
+    <body>
+        <p>It is <span id = "player"></span> to move.</p>
+        <div id="deadwhite"></div>
+        <div id="gameboard"> </div>
+        <div id="underboard"></div>
+        <div id="deadblack"></div>
+
+        <p id ="info-display"></p>
+        <p>Choose who you want to play against</p>
+        <script src = 'interface.js'></script>
+        <button type="button" id="btn1" onclick="onClick()">Computer</button>
+        <button type="button" id="btn2" onClick="onButtonClick()">2Player</button>
+        <script src = "peices.js"></script>
+    </body>
+</html>

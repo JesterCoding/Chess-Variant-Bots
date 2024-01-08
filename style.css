@@ -1,0 +1,106 @@
+/*
+ChessBoard Interactive Frontend Program CSS
+Written By: Kshitij Tomar
+*/
+
+#gameboard {
+    width: 396px;
+    height: 352px;
+    display: flex;
+    flex-wrap: wrap; 
+    margin-bottom: 5px;
+    margin-top: 5px;
+    
+}
+
+#text1 {
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+
+.square
+{
+    height: 44px;
+    width: 44px;
+    position: relative;
+}
+
+#underboard {
+    width: 396px;
+    height: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#deadwhite {
+    width: 396px;
+    height: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#deadblack {
+    width: 396px;
+    height: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text1 {
+    width: 40px;
+    height: 12px;
+    font-size: 12px;
+    height: 9px;
+    margin: auto;
+    text-align: center;
+}
+
+.text2 {
+    width: 44px;
+    font-size: 12px;
+    height: 9px;
+    text-align: center;
+}
+
+.square svg
+{
+    height: 30px;
+    width: 34.5px;
+    margin: 5px;
+    position: relative;
+    z-index: -9;
+}
+
+.square .check
+{
+    background-color: rgb(39, 140, 223)
+}
+
+path
+{
+    position: relative;
+    z-index: -10;
+}
+
+.peice
+{
+    position: relative;
+    z-index: 9;
+}
+
+.beige {
+    background-color: rgb(241, 244, 241);
+}
+
+.brown {
+    background-color: rgb(43, 169, 62);
+}
+
+.black {
+    fill: black;
+}
+
+.white {
+    fill: rgb(228, 207, 22);
+}
